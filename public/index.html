@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Websockets</title>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+	</head>
+	<body>
+		<h1>See me</h1>
+		<textarea style="background:black;color:white; min-width: 550px;min-height: 250px;" id="con" disabled></textarea>
+		<textarea id="commandIn2" ></textarea>
+	
+		<input id="commandIn" type="text" placeholder="dir">
+		<button id="send">Button</button>
+		<textarea id="output" name="" id="" cols="30" rows="10"></textarea>
+		<button id="tree">Show Tree</button>
+		<textarea  id="treeRes"></textarea>
+
+		<script src="/transfer.js"></script>
+	</body>
+
+</html>
